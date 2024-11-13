@@ -1,3 +1,3 @@
-# [ramel mirza](https://ramelmirza.github.io)
+### ramel mirza
 
 # a little bit about me...
