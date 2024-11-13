@@ -27,6 +27,29 @@ body {
     transition: background-color 0.75s ease-in-out, color 0.75s ease-in-out;
 }
 
+#ball {
+    background-color: #2382B2;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    animation: bounce 5.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: calc(100vh - 25px);
+    }
+    100% {
+        top:0;
+    }
+}
+
 #me {
     color: #2382B2;
     transition: color 0.75s ease-in-out;
@@ -112,4 +135,8 @@ body.dark-mode a:link {
 
 body.dark-mode a:visited {
     color: #FDB827;
+}
+
+body.dark-mode #ball {
+    background-color: #FDB827;
 }
