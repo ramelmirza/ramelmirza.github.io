@@ -129,11 +129,7 @@ body.dark-mode .sections {
     color: #FDB827;
 }
 
-body.dark-mode a:link {
-    color: #FDB827;
-}
-
-body.dark-mode a:visited {
+body.dark-mode a {
     color: #FDB827;
 }
 
