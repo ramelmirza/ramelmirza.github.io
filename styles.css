@@ -93,13 +93,11 @@ ul {
 
 li a {
     color: black;
-    font-weight: normal;
 }
 
 /* footer */
 a {
     color: #2382B2;
-    font-weight: bold;
     text-decoration: none;
 }
 
@@ -109,6 +107,7 @@ a {
 
 footer p {
     padding-top: 10px;
+    font-weight: bold;
     text-align: center;
     position: fixed;
     bottom: 0px;
