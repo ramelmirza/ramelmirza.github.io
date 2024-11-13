@@ -92,7 +92,8 @@ ul {
 }
 
 li a {
-    color: black; 
+    color: black;
+    font-weight: 400;
 }
 
 /* footer */
@@ -140,4 +141,8 @@ body.dark-mode a:visited {
 
 body.dark-mode #ball {
     background-color: #FDB827;
+}
+
+body.dark-mode li a {
+    background-color: white;
 }
