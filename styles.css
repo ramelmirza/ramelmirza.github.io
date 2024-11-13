@@ -116,7 +116,6 @@ footer p {
 }
 
 /* dark */
-
 body.dark-mode {
     color: white;
     background-color: #12284B;
@@ -143,5 +142,5 @@ body.dark-mode #ball {
 }
 
 body.dark-mode li a {
-    background-color: white;
+    color: white;
 }
