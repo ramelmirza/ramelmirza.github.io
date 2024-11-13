@@ -138,5 +138,5 @@ body.dark-mode #ball {
 }
 
 body.dark-mode li a {
-    color: white;
+    color: white !important;
 }
