@@ -20,6 +20,7 @@
 
 /* DEFAULT MODE HERE: */
 body {
+    position: relative;
     background-color: #E5C8A4;
     font-family: "Pixelify Sans", sans-serif;
     font-weight: 400;

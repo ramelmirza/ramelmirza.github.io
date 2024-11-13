@@ -7,6 +7,8 @@ function mode() {
 
 document.addEventListener("DOMContentLoaded", () => {
 
+    let height = document.documentElement.clientHeight;
+
     let ball = document.getElementById('ball');
 
     let speed = 2.5;
@@ -18,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position += speed;
 
             // Reaches the bottom of the page
-            if(position >= window.innerHeight - 50) {
+            if(position >= height - 50) {
                 isDown = false;
             }
         } else if (isDown === false) {
