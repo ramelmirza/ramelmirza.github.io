@@ -7,7 +7,7 @@ function mode() {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    let height = document.documentElement.clientHeight;
+    let height = window.innerHeight;
 
     let ball = document.getElementById('ball');
 
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    ball.style.top = '${position}px';
+    ball.style.top = `${position}px`;
 
     requestAnimationFrame(movementBall);
 
