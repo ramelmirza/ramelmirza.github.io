@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
             position += speed;
 
             // Reaches the bottom of the page
-            if(position >= height - 50) {
+            if(position >= height - 72) {
                 isDown = false;
             }
         } else if (isDown === false) {

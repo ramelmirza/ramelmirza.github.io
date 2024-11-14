@@ -44,7 +44,7 @@ body {
         top: 0;
     }
     50% {
-        top: calc(100vh - 60px);
+        top: calc(100vh - 42px);
     }
     100% {
         top:0;
