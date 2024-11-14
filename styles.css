@@ -36,7 +36,6 @@ body {
     position: absolute;
     top: 0;
     left: 70%;
-    transform: translateX(-20%);
     animation: bounce 5.5s ease-in-out infinite;
 }
 
@@ -45,7 +44,7 @@ body {
         top: 0;
     }
     50% {
-        top: calc(100vh - 42px);
+        top: calc(100vh - 60px);
     }
     100% {
         top:0;
