@@ -1,0 +1,136 @@
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* image toggle */
+#niceSpot {
+    position: absolute;
+    top: 7.5px;
+    right: 7.5px;
+    height: 30px;
+    width: 30px;
+}
+
+#intro {
+    margin: 0;
+}
+
+body {
+    position: relative;
+    background-color: #E5C8A4;
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: background-color 0.75s ease-in-out, color 0.75s ease-in-out;
+}
+
+#ball {
+    background-color: #2382B2;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    animation: bounce 5.5s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: calc(100vh - 42px);
+    }
+    100% {
+        top:0;
+    }
+}
+
+#me {
+    color: #2382B2;
+    transition: color 0.75s ease-in-out;
+}
+
+.sections {
+    color: #2382B2;
+    transition: color 0.75s ease-in-out;
+}
+
+.container {
+    width: 58%;
+}
+
+.container p {
+    text-align: left;
+}
+
+/* icons for projects */
+ul {
+    list-style: none;
+}
+
+#pacman::before {
+    content:"👾 ⇝";
+}
+
+#numberTheory::before {
+    content:"🔢 ⇝";
+}
+
+#tradingBot::before {
+    content:"₿ ⇝";
+}
+
+li a {
+    color: black;
+}
+
+/* footer */
+a {
+    color: #2382B2;
+    text-decoration: none;
+}
+
+a {
+    transition: color 0.5s ease-in-out;
+}
+
+footer p {
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    height: 10px;
+    width: 98.5%;
+}
+
+/* dark */
+body.dark-mode {
+    color: white;
+    background-color: #12284B;
+}
+
+body.dark-mode #me {
+    color: #FDB827;
+}
+
+body.dark-mode .sections {
+    color: #FDB827;
+}
+
+body.dark-mode a {
+    color: #FDB827;
+}
+
+body.dark-mode #ball {
+    background-color: #FDB827;
+}
+
+body.dark-mode li a {
+    color: white !important;
+}
