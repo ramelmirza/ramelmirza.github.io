@@ -20,7 +20,7 @@
 
 body {
     position: relative;
-    background-color: #f7f4f1;
+    background-color: #ffffff;
     font-family: "Pixelify Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -28,12 +28,12 @@ body {
 }
 
 #me {
-    color: #dd5d2a;
+    color: #164da0;
     transition: color 0.75s ease-in-out;
 }
 
 .sections {
-    color: #dd5d2a;
+    color: #164da0;
     transition: color 0.75s ease-in-out;
 }
 
@@ -72,7 +72,7 @@ li a {
 
 /* footer */
 a {
-    color: #dd5d2a;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -92,22 +92,22 @@ footer p {
 
 /* dark */
 body.dark-mode {
-    color: white;
-    background-color: #080f1b;
+    color: #164da0;
+    background-color: #020403
 }
 
 body.dark-mode #me {
-    color: #e8f536;
+    color: #164da0;
 }
 
 body.dark-mode .sections {
-    color: #e8f536;
+    color: #164da0;
 }
 
 body.dark-mode a {
-    color: #e8f536;
+    color: #164da0;
 }
 
 body.dark-mode li a {
-    color: white !important;
+    color: #164da0 !important;
 }
