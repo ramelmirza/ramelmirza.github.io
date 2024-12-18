@@ -92,7 +92,7 @@ footer p {
 
 /* dark */
 body.dark-mode {
-    color: #164da0;
+    color: #ffffff;
     background-color: #020403
 }
 
@@ -105,9 +105,9 @@ body.dark-mode .sections {
 }
 
 body.dark-mode a {
-    color: #164da0;
+    color: #ffffff;
 }
 
 body.dark-mode li a {
-    color: #164da0 !important;
+    color: #ffffff !important;
 }
