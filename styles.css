@@ -93,7 +93,7 @@ footer p {
 /* dark */
 body.dark-mode {
     color: #ffffff;
-    background-color: #020403
+    background-color: #000000
 }
 
 body.dark-mode #me {
