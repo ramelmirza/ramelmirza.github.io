@@ -19,7 +19,11 @@
 }
 
 body {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     background-color: #ffffff;
     font-family: "Pixelify Sans", sans-serif;
     font-weight: 400;
@@ -28,12 +32,12 @@ body {
 }
 
 #me {
-    color: #164da0;
+    color: #ac2222;
     transition: color 0.75s ease-in-out;
 }
 
 .sections {
-    color: #164da0;
+    color: #ac2222;
     transition: color 0.75s ease-in-out;
 }
 
@@ -97,11 +101,11 @@ body.dark-mode {
 }
 
 body.dark-mode #me {
-    color: #164da0;
+    color: #ac2222;
 }
 
 body.dark-mode .sections {
-    color: #164da0;
+    color: #ac2222;
 }
 
 body.dark-mode a {
