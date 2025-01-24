@@ -109,11 +109,6 @@ body.dark-mode .sections {
     color: #ac2222;
 }
 
-body.dark-mode li a {
-    color: #ffffff;
-    transition: color 0.3s ease;
-}
-
 body.dark-mode li a:hover {
     color: #ac2222;
     transform: scale(1.15);
