@@ -1,7 +1,7 @@
 .pixelify-sans {
   font-family: "Pixelify Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -16,10 +16,11 @@
 
 #intro {
     margin: 0;
+    text-align: center;
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #f8c9ad;
     font-family: "Pixelify Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -31,17 +32,13 @@ body {
     transition: color 0.75s ease-in-out;
 }
 
+.container {
+    width: 40%;
+}
+
 .sections {
     color: #ac2222;
     transition: color 0.75s ease-in-out;
-}
-
-.container {
-    width: 58%;
-}
-
-.container p {
-    text-align: left;
 }
 
 /* icons for projects */
@@ -51,10 +48,6 @@ ul {
 
 #tradingBot::before {
     content:"₿ ⇝";
-}
-
-#pacman::before {
-    content:"👾 ⇝";
 }
 
 #numberTheory::before {
@@ -87,9 +80,8 @@ li a:hover {
 
 footer p {
     padding-top: 10px;
-    font-weight: bold;
     text-align: center;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     height: 10px;
     width: 98.5%;
@@ -98,19 +90,19 @@ footer p {
 /* dark */
 body.dark-mode {
     color: #ffffff;
-    background-color: #000000
+    background-color: #030a2e
 }
 
 body.dark-mode #me {
-    color: #ac2222;
+    color: #e9e506;
 }
 
 body.dark-mode .sections {
-    color: #ac2222;
+    color: #e9e506;
 }
 
 body.dark-mode li a:hover {
-    color: #ac2222;
+    color: #e9e506;
     transform: scale(1.15);
     transition: transform 0.3s ease, color 0.3s ease;
 }
