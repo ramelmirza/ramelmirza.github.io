@@ -117,9 +117,10 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Mohawk College}{May 2023 -- Apr. 2026}
-      {Software Development - Advanced Diploma}{GPA: 3.7/4.0}
+      {Software Development - Advanced Diploma}{GPA: 3.9/4.0}
       \resumeItemListStart
         \resumeItem{\textit{Deans' Honor List}}
+        \resumeItem{\textit{Data Analytics Club}}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -152,7 +153,7 @@
       \resumeItemListStart
         \resumeItem{Provided friendly and efficient customer service, replenished hot and cold food counters, and operated a point-of-sale system.}
         \resumeItem{Collaborated with team members during maintenance periods - helping offload product trailers and cleaning gas/oil systems.}
-        \resumeItem{Attentively completed closing session tasks assigned by manager to ensure opening shift members success.}
+        \resumeItem{Engaged in up-selling techniques for the Meals Hot Ready department, helping stabilize department revenue goals by an average of 7\%}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
@@ -166,6 +167,7 @@
           \resumeItemListStart
             \resumeItem{Built a GUI application using \textbf{Python} and \textbf{Tkinter} that visualizes the steps of the square and multiply algorithm in number theory to help aid students in studying.}
             \resumeItem{Approved and posted by the math course owner in the canvas shell of the Discrete Math \& Statistics class.}
+            \resumeItem{Accessible learning resources section of the mid-term course feedback conducted by the math course owner in Fall 2024 increased by 20\% from the Summer 2024 semester.}
           \resumeItemListEnd
      \resumeProjectHeading
           {\textbf{NLP Crypto Chatbot} $|$ \emph{Python, SpaCy}}{\href{https://github.com/ramelmirza/nlp-chatbot}{\underline{GitHub}}}
@@ -174,23 +176,17 @@
             \resumeItem{Implemented it in Python Shell and Discord where users can invite the bot and mention it to ask questions - successfully handling spelling and grammar mistakes.}
             \resumeItem{Used \textbf{Regex} and \textbf{SpaCy} to define user utterances, intents, entities, and formulate a response accurately.}
           \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Twin Primes} $|$ \emph{Python}}{\href{https://github.com/ramelmirza/twin-primes}{\underline{GitHub}}}
-          \resumeItemListStart
-            \resumeItem{Used the Sieve of Eratosthenes method of finding all prime numbers up to an input and plotting the coordinates of all twin prime values.}
-          \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 
 
-%
 %-----------PROGRAMMING SKILLS-----------
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Python, Java, C++, JavaScript, PHP, SQL, HTML, CSS} \\
-     \textbf{Technologies}{: React, Git, Bash, SQL Server, MySQL, TensorFlow, Scikit, NumPy, SpaCy, Pandas, JUnit, PyTest} \\
-     \textbf{Concepts}{: Data Structures \& Algorithms, Object-Oriented Programming, Client-Side Development, Server-Side Development, Databases, REST APIs, Intelligent Systems, Version Control, Unit Testing}
+     \textbf{Languages}{: Python, Java, C++, JavaScript, PHP, SQL(SQL Server, MySQL, SQLite), NoSQL(Redis), HTML \& CSS} \\
+     \textbf{Technologies}{: React, React-Native, Node.js, Git, Bash, TensorFlow, Scikit, NumPy, SpaCy, Pandas, JUnit, PyTest} \\
+     \textbf{Concepts}{: Data Structures \& Algorithms, Object-Oriented Programming, Client-Side Development, Server-Side Development, Databases, REST API's, Intelligent Systems, Version Control, Unit Testing}
     }}
  \end{itemize}
 
