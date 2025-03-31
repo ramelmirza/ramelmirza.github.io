@@ -34,18 +34,18 @@ a {
 }
 
 li a:hover {
-    color: #0d8a1d;
+    color: #0033ff;
     transition: transform 0.5s ease, color 0.5s ease;
 }
 
 /* dark mode */
 body.dark-mode {
     color: #ffffff;
-    background-color: #241c7e
+    background-color: #2d286b;
 }
 
 body.dark-mode .sections {
-    color: #0d8a1d;
+    color: #da9100;
 }
 
 body.dark-mode a {
@@ -54,5 +54,5 @@ body.dark-mode a {
 }
 
 body.dark-mode li a:hover {
-    color: #0d8a1d;
+    color: #da9100;
 }
