@@ -23,7 +23,7 @@ body {
 }
 
 .sections {
-    color: #0d8a1d;
+    color: #0033ff;
     transition: color 0.5s ease-in-out;
 }
 
@@ -40,8 +40,8 @@ li a:hover {
 
 /* dark mode */
 body.dark-mode {
-    color: #241c7e;
-    background-color: #000000
+    color: #ffffff;
+    background-color: #241c7e
 }
 
 body.dark-mode .sections {
